@@ -16,6 +16,7 @@
   "title": "Schema specification for the BigFeed data generation",
   "allOf": [
     {"$ref": "https://json-schema.org/draft/2020-12/schema"},
-    { "$ref": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-vocab.json"}
+    { "$ref": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-vocab-v2.json",
+    }
   ]
 }
