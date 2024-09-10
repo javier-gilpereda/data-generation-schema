@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation.json",
+  "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-v2.json",
   "$vocabulary": {
     "https://json-schema.org/draft/2020-12/vocab/core": true,
     "https://json-schema.org/draft/2020-12/vocab/applicator": true,
