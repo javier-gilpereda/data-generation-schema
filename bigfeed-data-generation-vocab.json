@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-vocab.json",
+  "$dynamicAnchor": "meta",
+  "type": [ "object", "boolean" ],
+  "properties": {
+    "interpretation": {
+      "type": "object",
+      "properties": {
+        "referenceType": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        },
+        "map": {
+          "type": "object",
+          "properties": {
+            "param": {
+              "type": "string"
+            },
+            "expr": {
+              "type": "string"
+            }
+          }
+        },
+        "map2": {
+          "type": "object",
+          "properties": {
+            "param1": {
+              "type": "string"
+            },
+            "param2": {
+              "type": "string"
+            },
+            "expr": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
