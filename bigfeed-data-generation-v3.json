@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-v2.json",
+  "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-v3.json",
   "$vocabulary": {
     "https://json-schema.org/draft/2020-12/vocab/core": true,
     "https://json-schema.org/draft/2020-12/vocab/applicator": true,
@@ -9,14 +9,14 @@
     "https://json-schema.org/draft/2020-12/vocab/meta-data": true,
     "https://json-schema.org/draft/2020-12/vocab/format-annotation": true,
     "https://json-schema.org/draft/2020-12/vocab/content": true,
-    "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-vocab-v2.json": true
+    "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-vocab-v3.json": true
   },
   "$dynamicAnchor": "meta",
 
   "title": "Schema specification for the BigFeed data generation",
   "allOf": [
     {"$ref": "https://json-schema.org/draft/2020-12/schema"},
-    { "$ref": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-vocab-v2.json"
+    { "$ref": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-vocab-v3.json"
     }
   ]
 }

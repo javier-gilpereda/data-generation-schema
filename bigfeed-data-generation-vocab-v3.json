@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-vocab-v2.json",
+  "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/main/bigfeed-data-generation-vocab-v3.json",
   "$dynamicAnchor": "meta",
   "type": [ "object", "boolean" ],
   "properties": {
