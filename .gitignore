@@ -1,0 +1,10 @@
+.idea/
+*.iml
+**/target/
+**/logs/*
+/infrastructure/terraform/production/.terraform/*
+/infrastructure/terraform/production/terraform.tfstate.backup
+http-client.private.env.json
+venv
+.flattened-pom.xml
+*.log
