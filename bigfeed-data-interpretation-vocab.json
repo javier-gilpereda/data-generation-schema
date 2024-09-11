@@ -5,7 +5,7 @@
   "type": [ "object", "boolean" ],
   "properties": {
     "interpretation": {
-      "type": "object",
+      "type": ["object", "string"],
       "properties": {
         "referenceType": {
           "type": "string"
