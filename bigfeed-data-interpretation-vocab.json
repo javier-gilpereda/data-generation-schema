@@ -6,35 +6,45 @@
   "properties": {
     "interpretation": {
       "type": ["object", "string"],
+      "$dynamicRef": "#meta",
       "properties": {
         "referenceType": {
-          "type": "string"
+          "type": "string",
+          "$dynamicRef": "#meta"
         },
         "value": {
-          "type": "string"
+          "type": "string",
+          "$dynamicRef": "#meta"
         },
         "map": {
           "type": "object",
+          "$dynamicRef": "#meta",
           "properties": {
             "param": {
-              "type": "string"
+              "type": "string",
+              "$dynamicRef": "#meta"
             },
             "expr": {
-              "type": "string"
+              "type": "string",
+              "$dynamicRef": "#meta"
             }
           }
         },
         "map2": {
           "type": "object",
+          "$dynamicRef": "#meta",
           "properties": {
             "param1": {
-              "type": "string"
+              "type": "string",
+              "$dynamicRef": "#meta"
             },
             "param2": {
-              "type": "string"
+              "type": "string",
+              "$dynamicRef": "#meta"
             },
             "expr": {
-              "type": "string"
+              "type": "string",
+              "$dynamicRef": "#meta"
             }
           }
         }
