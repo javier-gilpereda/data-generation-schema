@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/refs/tags/v1.0.4/bigfeed-data-interpretation-vocab.json",
+  "$schema": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/refs/tags/v1.0.4/bigfeed-data-interpretation.json",
   "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/refs/tags/v1.0.4/bigfeed-data-interpretation-vocab.json",
   "$dynamicAnchor": "meta",
   "type": [ "object", "boolean" ],

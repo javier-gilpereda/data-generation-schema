@@ -1,7 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/refs/tags/v1.0.4/bigfeed-data-interpretation-vocab.json",
-  "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/refs/tags/v1.0.4/bigfeed-data-interpretation-vocab.json",
-
+  "$schema": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/refs/tags/v1.0.4/bigfeed-data-interpretation.json",
+  "$id": "https://raw.githubusercontent.com/javier-gilpereda/data-generation-schema/refs/tags/v1.0.4/bigfeed-data-interpretation.json",
   "$vocabulary": {
     "https://json-schema.org/draft/2020-12/vocab/core": true,
     "https://json-schema.org/draft/2020-12/vocab/applicator": true,
